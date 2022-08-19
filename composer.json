@@ -18,6 +18,6 @@
         "php": ">=7.0",
         "behat/behat": ">=3.0",
         "symfony/http-client": ">=3.0",
-        "symfony/contracts": ">=1.0"
+        "symfony/http-client-contracts": ">=2.3"
     }
 }
