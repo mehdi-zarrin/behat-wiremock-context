@@ -1,0 +1,23 @@
+{
+    "name": "mtz/behat-wiremock-context",
+    "description": "facilitates interaction with wiremock in behat feature files",
+    "type": "library",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "MTZ\\BehatContext\\Wiremock\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Mehdi",
+            "email": "mehdi.zarrin@gmail.com"
+        }
+    ],
+    "require": {
+        "php": ">=7.0",
+        "behat/behat": ">=3.0",
+        "symfony/http-client": ">=3.0",
+        "symfony/contracts": ">=1.0"
+    }
+}
